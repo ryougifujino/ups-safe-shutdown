@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 target_ip=192.168.2.66
 failure_count=0
