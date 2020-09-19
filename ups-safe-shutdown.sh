@@ -14,7 +14,7 @@ do
   fi
   sleep 10s
   if [ $failure_count -eq $shutdown_failure_count_threshold ]; then
-    shutdown -hP now
+    /sbin/shutdown -hP now
     break
   fi
 done
